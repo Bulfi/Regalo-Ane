@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="./estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Whisper&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="tituloPrincipal">
-        <h1>Querida Ane</h1>
+        <h1 class="tracking-in-contract">Querida Ane</h1>
     </div>
-    <div class="container">
+    
+    <section class="seccion1">
+    <div class="container fade-in-left">
             <div class="caja" class="caja1">
-                <p>Un 11 de agosto, nacía una persona muy especial. Una persona que llegaría a este mundo para llenarlo de luz, con una belleza inigualable y un carácter único. El mundo estaba recibiendo a Chris Hemsworth. No, bueno, perdón, era una joda. No sé si sabías que cumplís años el mismo día que él, pero bueno, #dataso. <br>
+                <p class="p1">Un 11 de agosto, nacía una persona muy especial. Una persona que llegaría a este mundo para llenarlo de luz, con una belleza inigualable y un carácter único. El mundo estaba recibiendo a Chris Hemsworth. No, bueno, perdón, era una joda. No sé si sabías que cumplís años el mismo día que él, pero bueno, #dataso. <br>
                 Claramente me refiero a vos. El 11 de agosto de 2001 nacía una de las personas más importantes de mi vida, así que sí, de ahora en adelante, el 11 de agosto es un día muy especial para mí también. ¿Qué decirte? Llegaste a mi vida de la forma más random posible, aunque siempre nos movimos en círculos similares, pero que nunca coincidieron. Hasta que ocurrió, y fue una de las cosas más especiales y hermosas que me ha pasado en la vida. <br>
                 Cruzar mi camino con vos fue una locura, y desde que llegaste a mi vida, me enseñaste muchas cosas. Nunca creí encontrar a alguien que de verdad intentara entenderme como vos lo hacés, que se esfuerce cada día por ayudarme a ser mejor, a ser feliz. Por eso, te merecés todo de mí, niña, todo el amor y todo lo que yo pueda entregarte.</p>
             </div>
@@ -29,17 +32,24 @@
             </div>
 
             <div class="caja" class="caja4">
-                <p>Como siempre dije, sos una caja de sorpresas; cada día encuentro algo nuevo, algo único e interesante en vos. <br>
+                <p class="p2">Como siempre dije, sos una caja de sorpresas; cada día encuentro algo nuevo, algo único e interesante en vos. <br>
                 Sos una chica admirable, inteligente, graciosa, guapa, poderosa (referencias), en fin. Si tuviera que escribirte todo lo que sos, no terminamos más. Pero, encima de ser una persona sorprendente, llena de cualidades, sos una chica hermosa, con una sonrisa deslumbrante, un cabello precioso, una piel de porcelana y unos hoyuelos que volverían loco a cualquiera. Y TUS OJOS. Nunca en mi vida conecté tanto con unos ojos como con los tuyos. Cada vez que los veo es como si mi alma acariciara la tuya. Ese sentimiento es algo único que nunca experimenté, y creo que solo una persona como vos puede llegar a hacer sentir así a alguien. <br>
                 En fin, no vine a simpear; vine a desearte un feliz cumpleaños, de una manera no tan tradicional. Espero de todo corazón que en este día tan especial, seas más feliz que nunca y puedas contagiarnos a todos con tu hermosa sonrisa. Te quiero.</p>
             </div>
     </div>
+    </section>
 
     <section class="seccion2">
-        <div class="bordeImg">
+        <div class="bordeImg" data-aos="flip-left">
             <img class="imagenGrande" src="./Multimedia/foto3.jpg" alt="">
         </div>
     </section>
-    <h2>Con amor, tu niño 💚</h2>
+    <h2 data-aos="fade-up">Con amor, tu niño 💚</h2>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
